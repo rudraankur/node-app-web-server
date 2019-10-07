@@ -30,7 +30,7 @@ searchForm.addEventListener('submit' , (ev)=> {
 			}
 
 			messageOne.textContent = ''
-			messageTwo.textContent = 'Location : '+data.location+' Temparature : '+data.temparature
+			messageTwo.textContent = 'Location : '+data.location+' Temparature : '+data.temparature+' Summary : '+data.summary
 			// console.log('Location : ',data.location)
 			// console.log('Temparature : ',data.temparature)
 		})
